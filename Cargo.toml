@@ -1,0 +1,10 @@
+[package]
+name = "spacegame"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy = { version = "0.16.1", features = ["bevy_dev_tools"] }
+iter_tools = "0.30.0"
+rand = "0.9.1"
+rayon = "1.10.0"
