@@ -4,7 +4,19 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+avian3d = { version = "0.3.1", default-features = false, features = [
+    "f64",
+    "parry-f64",
+    "simd",
+    "serialize",
+    "collider-from-mesh",
+    "bevy_scene",
+    "bevy_picking",
+    "bevy_diagnostic",
+    "diagnostic_ui",
+    "debug-plugin",
+    "parallel",
+    "default-collider",
+    "3d",
+] }
 bevy = { version = "0.16.1", features = ["bevy_dev_tools"] }
-iter_tools = "0.30.0"
-rand = "0.9.1"
-rayon = "1.10.0"
